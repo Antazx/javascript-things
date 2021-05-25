@@ -9,4 +9,3 @@ for (let index = 0; index < list.length; index++) {
 let valuesList = Object.values(duplicates);
 let duplicatedIndexes = valuesList.filter((value) => value.length > 1);
 console.log(duplicatedIndexes.flat());
-
